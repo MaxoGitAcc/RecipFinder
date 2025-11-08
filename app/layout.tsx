@@ -1,8 +1,6 @@
+import Navbar from "@/components/Navbar";
 import "@/styles/globals.css";
-import { Metadata, Viewport } from "next";
-
-
-import { Providers } from "./providers";
+import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
@@ -16,10 +14,18 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      <head />
-      <body >
-          {children}
-      </body>
+      <head>
+      <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
+      </head>
+        <body>
+          <div>
+            <Navbar />
+            {children}
+          </div>
+        </body>
     </html>
   );
 }
