@@ -9,13 +9,6 @@ export const metadata: Metadata = {
   title: "RecipFinder"
 };
 
-export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
-  ],
-};
-
 export default function RootLayout({
   children,
 }: {
@@ -25,9 +18,7 @@ export default function RootLayout({
     <html suppressHydrationWarning lang="en">
       <head />
       <body >
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-            {children}
-        </Providers>
+          {children}
       </body>
     </html>
   );
