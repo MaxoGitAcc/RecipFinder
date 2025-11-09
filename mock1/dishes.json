@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "title": "Spicy Chicken Pasta",
+      "subtitle": "Quick & easy dinner",
+      "image": "/first.jpg",
+      "time": "25 min",
+      "rating": 4.7
+    },
+    {
+      "id": 2,
+      "title": "Chocolate Lava Cake",
+      "subtitle": "Dessert heaven",
+      "image": "/second.jpeg",
+      "time": "35 min",
+      "rating": 4.9
+    },
+    {
+      "id": 3,
+      "title": "Healthy Green Smoothie",
+      "subtitle": "Start your day right",
+      "image": "/third.jpg",
+      "time": "10 min",
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "title": "Classic Beef Burger",
+      "subtitle": "Juicy and flavorful",
+      "image": "/first.jpg",
+      "time": "30 min",
+      "rating": 4.8
+    },
+    {
+      "id": 5,
+      "title": "Avocado Toast",
+      "subtitle": "Simple, healthy, perfect breakfast",
+      "image": "/third.jpg",
+      "time": "8 min",
+      "rating": 4.5
+    },
+    {
+      "id": 6,
+      "title": "Blueberry Pancakes",
+      "subtitle": "Weekend morning vibes",
+      "image": "/second.jpeg",
+      "time": "20 min",
+      "rating": 4.9
+    },
+    {
+      "id": 7,
+      "title": "Grilled Salmon Bowl",
+      "subtitle": "Light & protein-packed meal",
+      "image": "/first.jpg",
+      "time": "28 min",
+      "rating": 4.8
+    },
+    {
+      "id": 8,
+      "title": "Iced Caramel Latte",
+      "subtitle": "Cool down with a coffee twist",
+      "image": "/third.jpg",
+      "time": "7 min",
+      "rating": 4.4
+    },
+    {
+      "id": 9,
+      "title": "Margherita Pizza",
+      "subtitle": "Cheesy perfection in every bite",
+      "image": "/second.jpeg",
+      "time": "40 min",
+      "rating": 4.9
+    }
+  ]
+  
