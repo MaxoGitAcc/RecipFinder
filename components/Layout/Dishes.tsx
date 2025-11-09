@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import dishes from '@/mock1/dishes.json'
+import { useRouter } from 'next/navigation'
 
 interface Dish {
   id: number
@@ -14,6 +15,7 @@ interface Dish {
 
 const Dishes = () => {
   const [favorites, setFavorites] = useState<Dish[]>([])
+  const router = useRouter()
 
   // Load favorites from localStorage on mount
   useEffect(() => {
@@ -38,7 +40,9 @@ const Dishes = () => {
       <div className='w-full max-w-[1464px] mx-auto'>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-[2rem]">
           {dishes.map((item) => (
-            <div key={item.id} className="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition cursor-pointer">
+            <div key={item.id} 
+              onClick={() => router.push(`/recipes/${item.id}`)}
+              className="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition cursor-pointer">
               <div className="w-full h-52 sm:h-56 md:h-60 overflow-hidden">
                 <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
               </div>

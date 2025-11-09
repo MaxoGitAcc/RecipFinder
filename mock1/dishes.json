@@ -5,7 +5,13 @@
       "subtitle": "Quick & easy dinner",
       "image": "/first.jpg",
       "time": "25 min",
-      "rating": 4.7
+      "rating": 4.7,
+      "recipe": [
+        "Boil pasta until al dente.",
+        "Sauté chicken with garlic and chili.",
+        "Mix pasta with chicken and sauce.",
+        "Garnish with parsley and serve."
+      ]
     },
     {
       "id": 2,
@@ -13,7 +19,15 @@
       "subtitle": "Dessert heaven",
       "image": "/second.jpeg",
       "time": "35 min",
-      "rating": 4.9
+      "rating": 4.9,
+      "recipe": [
+        "Preheat oven to 220°C (425°F).",
+        "Melt chocolate and butter together.",
+        "Whisk eggs, sugar, and flour.",
+        "Combine chocolate with egg mixture.",
+        "Pour into ramekins and bake 12 minutes.",
+        "Serve warm with ice cream."
+      ]
     },
     {
       "id": 3,
@@ -21,7 +35,13 @@
       "subtitle": "Start your day right",
       "image": "/third.jpg",
       "time": "10 min",
-      "rating": 4.6
+      "rating": 4.6,
+      "recipe": [
+        "Add spinach, banana, and mango to blender.",
+        "Pour in almond milk.",
+        "Blend until smooth.",
+        "Pour into a glass and enjoy."
+      ]
     },
     {
       "id": 4,
@@ -29,7 +49,14 @@
       "subtitle": "Juicy and flavorful",
       "image": "/first.jpg",
       "time": "30 min",
-      "rating": 4.8
+      "rating": 4.8,
+      "recipe": [
+        "Season beef patties with salt and pepper.",
+        "Grill patties to desired doneness.",
+        "Toast buns lightly.",
+        "Assemble burger with lettuce, tomato, and cheese.",
+        "Serve with fries or salad."
+      ]
     },
     {
       "id": 5,
@@ -37,7 +64,14 @@
       "subtitle": "Simple, healthy, perfect breakfast",
       "image": "/third.jpg",
       "time": "8 min",
-      "rating": 4.5
+      "rating": 4.5,
+      "recipe": [
+        "Toast bread slices.",
+        "Mash avocado and season with salt and lemon.",
+        "Spread avocado on toast.",
+        "Top with poached egg or cherry tomatoes if desired.",
+        "Serve immediately."
+      ]
     },
     {
       "id": 6,
@@ -45,7 +79,14 @@
       "subtitle": "Weekend morning vibes",
       "image": "/second.jpeg",
       "time": "20 min",
-      "rating": 4.9
+      "rating": 4.9,
+      "recipe": [
+        "Mix flour, sugar, baking powder, and salt.",
+        "Whisk in milk, eggs, and melted butter.",
+        "Fold in blueberries.",
+        "Cook pancakes on a greased skillet until golden.",
+        "Serve with maple syrup."
+      ]
     },
     {
       "id": 7,
@@ -53,7 +94,14 @@
       "subtitle": "Light & protein-packed meal",
       "image": "/first.jpg",
       "time": "28 min",
-      "rating": 4.8
+      "rating": 4.8,
+      "recipe": [
+        "Season salmon with salt, pepper, and lemon.",
+        "Grill salmon until cooked through.",
+        "Prepare rice or quinoa base.",
+        "Top with grilled vegetables and salmon.",
+        "Drizzle with teriyaki or soy sauce."
+      ]
     },
     {
       "id": 8,
@@ -61,7 +109,14 @@
       "subtitle": "Cool down with a coffee twist",
       "image": "/third.jpg",
       "time": "7 min",
-      "rating": 4.4
+      "rating": 4.4,
+      "recipe": [
+        "Brew espresso or strong coffee.",
+        "Fill a glass with ice.",
+        "Pour coffee over ice.",
+        "Add milk and caramel syrup.",
+        "Stir and enjoy."
+      ]
     },
     {
       "id": 9,
@@ -69,7 +124,15 @@
       "subtitle": "Cheesy perfection in every bite",
       "image": "/second.jpeg",
       "time": "40 min",
-      "rating": 4.9
+      "rating": 4.9,
+      "recipe": [
+        "Preheat oven to 250°C (480°F).",
+        "Roll out pizza dough.",
+        "Spread tomato sauce evenly.",
+        "Top with mozzarella and fresh basil.",
+        "Bake until crust is golden and cheese melts.",
+        "Slice and serve hot."
+      ]
     }
   ]
   
