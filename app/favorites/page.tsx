@@ -29,55 +29,54 @@ const FavoritesPage = () => {
 
   if (favorites.length === 0) {
     return (
-      <section className="p-8">
-        <h1 className="text-xl font-bold">Your Favorite Food...</h1>
-        <p className="mt-4 text-gray-500">You haven't added any favorites yet.</p>
+      <section className="p-8 flex flex-col items-center justify-center h-[70vh] text-center">
+        <h1 className="text-3xl font-bold text-gray-800">Your Favorite Recipes</h1>
+        <p className="mt-4 text-gray-500 text-lg">You haven't added any favorites yet.</p>
       </section>
     )
   }
 
   return (
-    <section className="px-4 sm:px-6 lg:px-10 py-6">
+    <section className="px-4 sm:px-6 lg:px-10 py-8 bg-gray-50 min-h-screen">
       <div className="w-full max-w-[1564px] mx-auto">
-        <div className="text-2xl font-bold p-4">
-          <h1>Your Favorite Food...</h1>
+        <div className="text-3xl font-bold mb-6 text-gray-800">
+          Your Favorite Recipes
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-[2rem]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {favorites.map((item) => (
             <div
               key={item.id}
-              onClick={() => router.push(`/recipes/${item.id}`)} // ✅ Go to recipe
-              className="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition cursor-pointer relative"
+              onClick={() => router.push(`/recipes/${item.id}`)}
+              className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition cursor-pointer group relative"
             >
-              <div className="relative w-full h-52 sm:h-56 md:h-60 overflow-hidden">
+              <div className="relative w-full h-56 sm:h-60 md:h-64 overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
 
-                {/* Remove Button (bottom-left) */}
+                {/* Remove Button */}
                 <button
                   onClick={(e) => {
-                    e.stopPropagation() // ✅ prevent navigation
+                    e.stopPropagation()
                     handleRemove(item.id)
                   }}
-                  className="absolute bottom-3 left-3 p-2 rounded-full bg-white hover:bg-red-100 transition shadow"
+                  className="absolute top-3 right-3 p-2 rounded-full bg-white hover:bg-red-100 transition shadow-md z-10"
                 >
                   <i className="fa-solid fa-trash text-red-500 text-lg"></i>
                 </button>
               </div>
 
               <div className="p-4 flex flex-col gap-3">
-                <div className="flex items-center justify-between">
-                  <h2 className="text-lg sm:text-xl font-semibold line-clamp-2">{item.title}</h2>
+                <h2 className="text-lg sm:text-xl font-semibold line-clamp-2 text-gray-800">{item.title}</h2>
+                {item.subtitle && <p className="text-gray-500 text-sm line-clamp-2">{item.subtitle}</p>}
+
+                <div className="flex items-center justify-between mt-2">
                   <p className="flex items-center gap-1 text-amber-400 font-medium">
                     <i className="fa-solid fa-star"></i> {item.rating}
                   </p>
-                </div>
-
-                <div className="flex items-center justify-between">
                   <span className="text-red-600 font-bold text-lg sm:text-xl">{item.time}</span>
                 </div>
               </div>
