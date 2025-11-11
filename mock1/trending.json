@@ -1,20 +1,68 @@
 [
   {
-    "id": 1,
-    "title": "Spicy Chicken Pasta",
-    "subtitle": "Quick & easy dinner",
-    "image": "/first.jpg"
+    "id": 9,
+    "title": "Margherita Pizza",
+    "subtitle": "Cheesy perfection in every bite",
+    "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg",
+    "time": "40 min",
+    "rating": 4.9,
+    "type": "Dinner",
+    "recipe": [
+      "Preheat oven to 250°C (480°F).",
+      "Roll out pizza dough.",
+      "Spread tomato sauce evenly.",
+      "Top with mozzarella and fresh basil.",
+      "Bake until crust is golden and cheese melts.",
+      "Slice and serve hot."
+    ],
+    "ingredients": [
+      "1 pizza dough (store‑bought or homemade)",
+      "½ cup tomato sauce",
+      "150 g fresh mozzarella (sliced)",
+      "Fresh basil leaves",
+      "1 tbsp olive oil",
+      "Salt to taste"
+    ]
   },
   {
-    "id": 2,
-    "title": "Chocolate Lava Cake",
-    "subtitle": "Dessert heaven",
-    "image": "/second.jpeg"
+    "id": 11,
+    "title": "Chicken Teriyaki Stir Fry",
+    "subtitle": "Quick weeknight dinner",
+    "image": "https://images.unsplash.com/photo-1636401870585-a8852371e84a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2940",
+    "time": "25 min",
+    "rating": 4.7,
+    "type": "Dinner",
+    "recipe": [
+      "Sauté chicken pieces in oil.",
+      "Add vegetables and cook until tender.",
+      "Pour teriyaki sauce and stir.",
+      "Serve hot with rice or noodles."
+    ],
+    "ingredients": [
+      "300 g chicken breast",
+      "1 cup broccoli florets",
+      "1 carrot (sliced)",
+      "2 tbsp teriyaki sauce",
+      "Cooked rice or noodles to serve"
+    ]
   },
   {
-    "id": 3,
-    "title": "Healthy Green Smoothie",
-    "subtitle": "Start your day right",
-    "image": "/third.jpg"
+    "id": 12,
+    "title": "Strawberry Smoothie",
+    "subtitle": "Refreshing summer drink",
+    "image": "https://images.pexels.com/photos/775031/pexels-photo-775031.jpeg",
+    "time": "5 min",
+    "rating": 4.6,
+    "type": "Drink",
+    "recipe": [
+      "Blend strawberries, banana, and milk until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "ingredients": [
+      "1 cup strawberries",
+      "1 banana",
+      "½ cup milk",
+      "Honey to taste (optional)"
+    ]
   }
 ]

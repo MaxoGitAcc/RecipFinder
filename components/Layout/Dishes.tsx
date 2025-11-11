@@ -17,6 +17,7 @@ const Dishes = () => {
   const [dishes, setDishes] = useState<Dish[]>([])
   const [favorites, setFavorites] = useState<Dish[]>([])
   const [filter, setFilter] = useState<string>('All')
+  const [visibleCount, setVisibleCount] = useState<number>(9) // number of dishes to show initially
   const router = useRouter()
 
   // Load favorites from localStorage
@@ -53,6 +54,10 @@ const Dishes = () => {
   const filteredDishes = filter === 'All' ? dishes : dishes.filter(d => d.type === filter)
   const types = ['All', ...Array.from(new Set(dishes.map(d => d.type)))]
 
+  const handleLoadMore = () => {
+    setVisibleCount(prev => prev + 9) // load 9 more dishes
+  }
+
   return (
     <section className="px-4 sm:px-6 lg:px-10 py-6">
       <div className="w-full max-w-[1464px] mx-auto">
@@ -62,7 +67,7 @@ const Dishes = () => {
           {types.map((t) => (
             <button
               key={t}
-              onClick={() => setFilter(t)}
+              onClick={() => { setFilter(t); setVisibleCount(9) }} // reset visible count on filter change
               className={`flex-shrink-0 px-5 py-2 rounded-full font-semibold transition-all duration-200 ${
                 filter === t
                   ? 'bg-orange-500 text-white shadow-md scale-105'
@@ -76,7 +81,7 @@ const Dishes = () => {
 
         {/* Dishes Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-[2rem]">
-          {filteredDishes.map((item) => (
+          {filteredDishes.slice(0, visibleCount).map((item) => (
             <div
               key={item.id}
               onClick={() => router.push(`/recipes/${item.id}`)}
@@ -115,6 +120,16 @@ const Dishes = () => {
             </div>
           ))}
         </div>
+
+        {/* Load More Button */}
+        {visibleCount < filteredDishes.length && (
+          <div className="flex justify-center mt-6">
+            <button onClick={handleLoadMore}
+               className="px-6 py-2 bg-orange-500 text-white font-semibold rounded-full hover:bg-orange-600 transition cursor-pointer">
+              Load More
+            </button>
+          </div>
+        )}
 
       </div>
     </section>

@@ -217,5 +217,89 @@
       "1 tbsp olive oil",
       "Salt to taste"
     ]
+  },
+  {
+    "id": 10,
+    "title": "Avocado Toast",
+    "subtitle": "Healthy breakfast or snack",
+    "image": "https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg",
+    "time": "8 min",
+    "rating": 4.5,
+    "type": "Breakfast",
+    "recipe": [
+      "Toast bread slices.",
+      "Mash avocado and spread on toast.",
+      "Sprinkle salt, pepper, and chili flakes.",
+      "Top with cherry tomatoes or eggs."
+    ],
+    "ingredients": [
+      "2 slices of bread",
+      "1 ripe avocado",
+      "Salt & pepper to taste",
+      "Chili flakes (optional)",
+      "Cherry tomatoes (optional)"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Chicken Teriyaki Stir Fry",
+    "subtitle": "Quick weeknight dinner",
+    "image": "https://images.unsplash.com/photo-1636401870585-a8852371e84a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2940",
+    "time": "25 min",
+    "rating": 4.7,
+    "type": "Dinner",
+    "recipe": [
+      "Sauté chicken pieces in oil.",
+      "Add vegetables and cook until tender.",
+      "Pour teriyaki sauce and stir.",
+      "Serve hot with rice or noodles."
+    ],
+    "ingredients": [
+      "300 g chicken breast",
+      "1 cup broccoli florets",
+      "1 carrot (sliced)",
+      "2 tbsp teriyaki sauce",
+      "Cooked rice or noodles to serve"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Strawberry Smoothie",
+    "subtitle": "Refreshing summer drink",
+    "image": "https://images.pexels.com/photos/775031/pexels-photo-775031.jpeg",
+    "time": "5 min",
+    "rating": 4.6,
+    "type": "Drink",
+    "recipe": [
+      "Blend strawberries, banana, and milk until smooth.",
+      "Pour into a glass and enjoy."
+    ],
+    "ingredients": [
+      "1 cup strawberries",
+      "1 banana",
+      "½ cup milk",
+      "Honey to taste (optional)"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Veggie Quesadilla",
+    "subtitle": "Cheesy and satisfying snack",
+    "image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg",
+    "time": "15 min",
+    "rating": 4.5,
+    "type": "Lunch",
+    "recipe": [
+      "Place cheese and veggies on a tortilla.",
+      "Fold and cook on skillet until golden.",
+      "Slice and serve with salsa."
+    ],
+    "ingredients": [
+      "1 large tortilla",
+      "½ cup shredded cheese",
+      "1/2 bell pepper (sliced)",
+      "½ onion (sliced)",
+      "Salsa to serve"
+    ]
   }
 ]

@@ -3,10 +3,14 @@
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import trending from '@/mock1/trending.json'
+import { useRouter } from 'next/navigation'
+
 
 const Trending = () => {
+  const router = useRouter()
   const [currentIndex, setCurrentIndex] = useState(0)
   const total = trending.length
+  const currentItem = trending[currentIndex]
 
   const prev = () => setCurrentIndex((prev) => (prev === 0 ? total - 1 : prev - 1))
   const next = () => setCurrentIndex((prev) => (prev === total - 1 ? 0 : prev + 1))
@@ -33,10 +37,12 @@ const Trending = () => {
               <img
                 src={trending[currentIndex].image}
                 alt={trending[currentIndex].title}
+                onClick={() => router.push(`/recipes/${currentItem.id}`)}
                 className="w-full h-full object-cover rounded-xl max-sm:rounded-lg"/>
 
               {/* Gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent rounded-xl max-sm:rounded-lg"></div>
+              <div className="absolute inset-0 bg-gradient-to-t pointer-events-none
+                 from-black/60 via-black/20 to-transparent rounded-xl max-sm:rounded-lg"></div>
 
               {/* Text overlay */}
               <div className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 text-white max-sm:max-w-[90%]">
