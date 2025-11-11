@@ -1,0 +1,221 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Caesar Wrap",
+    "subtitle": "Quick and portable lunch",
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+    "time": "10 min",
+    "rating": 4.4,
+    "type": "Lunch",
+    "recipe": [
+      "Mix chopped romaine lettuce, grilled chicken strips, Caesar dressing.",
+      "Place mixture in a tortilla.",
+      "Add Parmesan cheese and roll up.",
+      "Serve immediately."
+    ],
+    "ingredients": [
+      "1 large tortilla",
+      "Grilled chicken strips",
+      "1 cup chopped romaine lettuce",
+      "2 tbsp Caesar dressing",
+      "¼ cup Parmesan cheese (shredded)",
+      "Salt & pepper to taste"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Thai Red Curry with Chicken",
+    "subtitle": "Spicy and fragrant",
+    "image": "https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg",
+    "time": "30 min",
+    "rating": 4.7,
+    "type": "Dinner",
+    "recipe": [
+      "Sauté red curry paste in oil.",
+      "Add coconut milk and bring to simmer.",
+      "Add chicken pieces and vegetables, cook through.",
+      "Serve with steamed rice."
+    ],
+    "ingredients": [
+      "300 g chicken (cubed)",
+      "2 tbsp red curry paste",
+      "1 can coconut milk",
+      "1 red bell pepper (sliced)",
+      "½ cup snow peas",
+      "Steamed rice to serve",
+      "Basil leaves (optional)"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Pesto Pasta with Sun‑Dried Tomatoes",
+    "subtitle": "Italian flavor in a snap",
+    "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+    "time": "22 min",
+    "rating": 4.6,
+    "type": "Dinner",
+    "recipe": [
+      "Boil pasta until al dente.",
+      "Stir in pesto sauce and sun‑dried tomatoes.",
+      "Add a splash of pasta water if needed.",
+      "Serve with grated parmesan."
+    ],
+    "ingredients": [
+      "200 g pasta",
+      "½ cup pesto sauce",
+      "¼ cup sun‑dried tomatoes (chopped)",
+      "2 tbsp olive oil",
+      "Parmesan cheese to serve",
+      "Salt & pepper to taste"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Classic Beef Burger",
+    "subtitle": "Juicy and flavorful",
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
+    "time": "30 min",
+    "rating": 4.8,
+    "type": "Lunch",
+    "recipe": [
+      "Season beef patties with salt and pepper.",
+      "Grill patties to desired doneness.",
+      "Toast buns lightly.",
+      "Assemble burger with lettuce, tomato, and cheese.",
+      "Serve with fries or salad."
+    ],
+    "ingredients": [
+      "500 g ground beef",
+      "4 burger buns",
+      "4 slices cheddar cheese",
+      "1 tomato (sliced)",
+      "Lettuce leaves",
+      "2 tbsp mayonnaise",
+      "Salt & pepper to taste"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Beef Tacos",
+    "subtitle": "Family‑friendly Tex‑Mex meal",
+    "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
+    "time": "18 min",
+    "rating": 4.8,
+    "type": "Dinner",
+    "recipe": [
+      "Brown ground beef with taco seasoning.",
+      "Warm taco shells.",
+      "Fill shells with beef, lettuce, tomato, cheese.",
+      "Top with sour cream and salsa.",
+      "Serve."
+    ],
+    "ingredients": [
+      "400 g ground beef",
+      "8 taco shells",
+      "1 cup shredded lettuce",
+      "1 tomato (diced)",
+      "½ cup shredded cheddar cheese",
+      "Sour cream & salsa to taste"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Blueberry Pancakes",
+    "subtitle": "Weekend morning vibes",
+    "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+    "time": "20 min",
+    "rating": 4.9,
+    "type": "Breakfast",
+    "recipe": [
+      "Mix flour, sugar, baking powder, and salt.",
+      "Whisk in milk, eggs, and melted butter.",
+      "Fold in blueberries.",
+      "Cook pancakes on a greased skillet until golden.",
+      "Serve with maple syrup."
+    ],
+    "ingredients": [
+      "1 cup flour",
+      "2 tbsp sugar",
+      "1 tsp baking powder",
+      "¼ tsp salt",
+      "1 cup milk",
+      "1 egg",
+      "2 tbsp melted butter",
+      "½ cup blueberries",
+      "Maple syrup for serving"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Grilled Salmon Bowl",
+    "subtitle": "Light & protein‑packed meal",
+    "image": "https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg",
+    "time": "28 min",
+    "rating": 4.8,
+    "type": "Lunch",
+    "recipe": [
+      "Season salmon with salt, pepper, and lemon.",
+      "Grill salmon until cooked through.",
+      "Prepare rice or quinoa base.",
+      "Top with grilled vegetables and salmon.",
+      "Drizzle with teriyaki or soy sauce."
+    ],
+    "ingredients": [
+      "2 salmon fillets",
+      "1 cup cooked rice or quinoa",
+      "1 red bell pepper (sliced)",
+      "1 zucchini (sliced)",
+      "2 tbsp soy sauce",
+      "1 tbsp lemon juice",
+      "Salt & pepper to taste"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Iced Caramel Latte",
+    "subtitle": "Cool down with a coffee twist",
+    "image": "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg",
+    "time": "7 min",
+    "rating": 4.4,
+    "type": "Drink",
+    "recipe": [
+      "Brew espresso or strong coffee.",
+      "Fill a glass with ice.",
+      "Pour coffee over ice.",
+      "Add milk and caramel syrup.",
+      "Stir and enjoy."
+    ],
+    "ingredients": [
+      "1 shot espresso or 120 ml strong coffee",
+      "½ cup milk",
+      "2 tbsp caramel syrup",
+      "Ice cubes",
+      "Whipped cream (optional)"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Margherita Pizza",
+    "subtitle": "Cheesy perfection in every bite",
+    "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg",
+    "time": "40 min",
+    "rating": 4.9,
+    "type": "Dinner",
+    "recipe": [
+      "Preheat oven to 250°C (480°F).",
+      "Roll out pizza dough.",
+      "Spread tomato sauce evenly.",
+      "Top with mozzarella and fresh basil.",
+      "Bake until crust is golden and cheese melts.",
+      "Slice and serve hot."
+    ],
+    "ingredients": [
+      "1 pizza dough (store‑bought or homemade)",
+      "½ cup tomato sauce",
+      "150 g fresh mozzarella (sliced)",
+      "Fresh basil leaves",
+      "1 tbsp olive oil",
+      "Salt to taste"
+    ]
+  }
+]

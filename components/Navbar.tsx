@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
-import dishes from '@/mock1/dishes.json'
+import dishes from '@/data/dishes.json'
 
 interface Dish {
   id: number
@@ -96,7 +96,7 @@ export default function Navbar() {
 
   return (
     <section>
-      <nav className="w-full bg-orange-500 py-4 px-8 flex items-center justify-between">
+      <nav className="fixed top-0 left-0 z-50 w-full bg-orange-500 py-4 px-8 flex items-center justify-between">
         <a href="/"><h1 className="font-bold text-2xl">RecipeFinder</h1></a>
 
         {/* Desktop search */}
@@ -185,7 +185,7 @@ export default function Navbar() {
               onClick={() => handleSubmit(query)}
               className="absolute right-6 top-1/2 transform -translate-y-1/2 text-gray-500 z-10"
             >
-              <i className="fa-solid fa-magnifying-glass"></i>
+              
             </button>
 
             {open && suggestions.length > 0 && (
@@ -212,7 +212,7 @@ export default function Navbar() {
 
             <button
               onClick={() => setMobileSearchOpen(false)}
-              className="absolute top-3 right-3 text-gray-500 z-50"
+              className="absolute top-6 right-6 text-gray-500 z-50"
             >
               <i className="fa-solid fa-xmark text-2xl"></i>
             </button>

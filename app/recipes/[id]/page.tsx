@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { useParams } from 'next/navigation'
-import dishes from '@/mock1/dishes.json'
+import dishes from '@/data/dishes.json'
 
 const RecipePage = () => {
   const params = useParams()
@@ -16,8 +16,8 @@ const RecipePage = () => {
   )
 
   return (
-    <section className="mt-8 px-4 sm:px-6 lg:px-10 py-8 bg-gray-50 ">
-      <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row gap-12">
+    <section className="mt-8 pt-[5rem] px-4 sm:px-6 lg:px-10 py-8 bg-gray-50 ">
+      <div className="max-w-[1400px]  mx-auto flex flex-col lg:flex-row gap-12">
 
         {/* Left: Dish Image */}
         <div className="lg:w-2/3 w-full flex justify-center lg:justify-start">
@@ -25,7 +25,7 @@ const RecipePage = () => {
             <img
               src={dish.image}
               alt={dish.title}
-              className="w-full h-full object-cover transform transition-transform duration-300 hover:scale-105"
+              className="w-full h-[580] object-cover transform transition-transform duration-300 hover:scale-105"
             />
           </div>
         </div>

@@ -37,7 +37,7 @@ const FavoritesPage = () => {
   }
 
   return (
-    <section className="px-4 sm:px-6 lg:px-10 py-8 bg-gray-50 min-h-screen">
+    <section className="px-4 pt-[6rem] sm:px-6 lg:px-10 py-8 bg-gray-50 min-h-screen">
       <div className="w-full max-w-[1564px] mx-auto">
         <div className="text-3xl font-bold mb-6 text-gray-800">
           Your Favorite Recipes

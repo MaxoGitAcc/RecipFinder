@@ -1,7 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
-import dishes from '@/mock1/dishes.json'
+import React, { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 
 interface Dish {
@@ -11,19 +10,35 @@ interface Dish {
   image: string
   time: string
   rating: number
+  type: string
 }
 
 const Dishes = () => {
+  const [dishes, setDishes] = useState<Dish[]>([])
   const [favorites, setFavorites] = useState<Dish[]>([])
+  const [filter, setFilter] = useState<string>('All')
   const router = useRouter()
 
-  // Load favorites from localStorage on mount
+  // Load favorites from localStorage
   useEffect(() => {
     const stored = localStorage.getItem('favorites')
     if (stored) setFavorites(JSON.parse(stored))
   }, [])
 
-  // Update favorites in state and localStorage
+  // Fetch dishes from API
+  useEffect(() => {
+    const fetchDishes = async () => {
+      try {
+        const res = await fetch('/api/dishes')
+        const data: Dish[] = await res.json()
+        setDishes(data)
+      } catch (err) {
+        console.error('Failed to fetch dishes', err)
+      }
+    }
+    fetchDishes()
+  }, [])
+
   const handleFavorites = (dish: Dish) => {
     let updated: Dish[]
     if (favorites.some(fav => fav.id === dish.id)) {
@@ -35,16 +50,44 @@ const Dishes = () => {
     localStorage.setItem('favorites', JSON.stringify(updated))
   }
 
+  const filteredDishes = filter === 'All' ? dishes : dishes.filter(d => d.type === filter)
+  const types = ['All', ...Array.from(new Set(dishes.map(d => d.type)))]
+
   return (
-    <section className="px-4 sm:px-6 lg:px-10 py-6 ">
-      <div className='w-full max-w-[1464px] mx-auto'>
+    <section className="px-4 sm:px-6 lg:px-10 py-6">
+      <div className="w-full max-w-[1464px] mx-auto">
+
+        {/* Filter Bar */}
+        <div className="flex gap-3 overflow-x-auto pb-2 mb-6">
+          {types.map((t) => (
+            <button
+              key={t}
+              onClick={() => setFilter(t)}
+              className={`flex-shrink-0 px-5 py-2 rounded-full font-semibold transition-all duration-200 ${
+                filter === t
+                  ? 'bg-orange-500 text-white shadow-md scale-105'
+                  : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+              }`}
+            >
+              {t}
+            </button>
+          ))}
+        </div>
+
+        {/* Dishes Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-[2rem]">
-          {dishes.map((item) => (
-            <div key={item.id} 
+          {filteredDishes.map((item) => (
+            <div
+              key={item.id}
               onClick={() => router.push(`/recipes/${item.id}`)}
-              className="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition cursor-pointer">
-              <div className="w-full h-52 sm:h-56 md:h-60 overflow-hidden">
-                <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
+              className="bg-white rounded-xl overflow-hidden shadow hover:shadow-xl transition cursor-pointer group"
+            >
+              <div className="w-full h-52 sm:h-56 md:h-60 overflow-hidden relative">
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
 
               <div className="p-4 flex flex-col gap-3">
@@ -57,8 +100,8 @@ const Dishes = () => {
 
                 <div className="flex items-center justify-between">
                   <span className="text-red-600 font-bold text-lg sm:text-xl">{item.time}</span>
-                  <button 
-                    onClick={() => handleFavorites(item)}
+                  <button
+                    onClick={(e) => { e.stopPropagation(); handleFavorites(item) }}
                     className="p-2 rounded-full hover:bg-red-100 transition"
                   >
                     <i
@@ -73,12 +116,6 @@ const Dishes = () => {
           ))}
         </div>
 
-
-        <div className='w-full flex items-center justify-center mt-[2rem]'>
-          <button className='bg-orange-500 px-4 py-2 rounded-2xl text-white cursor-pointer font-bold'>
-            Load More
-          </button>
-        </div>
       </div>
     </section>
   )
