@@ -72,8 +72,7 @@ const Dishes = () => {
                 filter === t
                   ? 'bg-orange-500 text-white shadow-md scale-105'
                   : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
-              }`}
-            >
+              }`}>
               {t}
             </button>
           ))}
@@ -85,14 +84,11 @@ const Dishes = () => {
             <div
               key={item.id}
               onClick={() => router.push(`/recipes/${item.id}`)}
-              className="bg-white rounded-xl overflow-hidden shadow hover:shadow-xl transition cursor-pointer group"
-            >
+              className="bg-white rounded-xl overflow-hidden shadow hover:shadow-xl transition cursor-pointer group" >
               <div className="w-full h-52 sm:h-56 md:h-60 overflow-hidden relative">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
+                <img src={item.image}
+                    alt={item.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"/>
               </div>
 
               <div className="p-4 flex flex-col gap-3">
@@ -107,8 +103,7 @@ const Dishes = () => {
                   <span className="text-red-600 font-bold text-lg sm:text-xl">{item.time}</span>
                   <button
                     onClick={(e) => { e.stopPropagation(); handleFavorites(item) }}
-                    className="p-2 rounded-full hover:bg-red-100 transition"
-                  >
+                    className="p-2 rounded-full hover:bg-red-100 transition" >
                     <i
                       className={`fa-solid fa-heart text-lg sm:text-xl ${
                         favorites.some(fav => fav.id === item.id) ? 'text-red-500' : 'text-black'

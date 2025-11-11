@@ -34,8 +34,7 @@ const Trending = () => {
               exit={{ x: -300, opacity: 0 }}
               transition={{ duration: 0.6, ease: 'easeInOut' }}>
               {/* Image */}
-              <img
-                src={trending[currentIndex].image}
+              <img src={trending[currentIndex].image}
                 alt={trending[currentIndex].title}
                 onClick={() => router.push(`/recipes/${currentItem.id}`)}
                 className="w-full h-full object-cover rounded-xl max-sm:rounded-lg"/>
@@ -60,13 +59,11 @@ const Trending = () => {
 
           {/* Arrows */}
           <div className="absolute bottom-3 sm:bottom-4 left-1/2 transform -translate-x-1/2 flex gap-3 sm:gap-4">
-            <button
-              onClick={prev}
+            <button onClick={prev}
               className="bg-white/80 hover:bg-white text-black text-base sm:text-lg p-1 sm:p-2 px-3 sm:px-4 rounded-full shadow">
               &#10094;
             </button>
-            <button
-              onClick={next}
+            <button onClick={next}
               className="bg-white/80 hover:bg-white text-black text-base sm:text-lg p-1 sm:p-2 px-3 sm:px-4 rounded-full shadow">
               &#10095;
             </button>
@@ -79,8 +76,7 @@ const Trending = () => {
             <span
               key={idx}
               className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all duration-300 ${
-                idx === currentIndex ? 'bg-orange-500 scale-125' : 'bg-gray-300'
-              }`}>  
+                idx === currentIndex ? 'bg-orange-500 scale-125' : 'bg-gray-300'}`}>  
             </span>
           ))}
         </div>

@@ -111,20 +111,16 @@ export default function Navbar() {
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={onKeyDown}
               onFocus={() => { if (suggestions.length) setOpen(true) }}
-              className="w-full border border-white rounded-2xl px-4 pr-12 py-2 focus:outline-none"
-            />
+              className="w-full border border-white rounded-2xl px-4 pr-12 py-2 focus:outline-none" />
             <button
               onClick={() => handleSubmit(query)}
-              className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500"
-            >
+              className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500" >
               <i className="fa-solid fa-magnifying-glass"></i>
             </button>
 
             {open && suggestions.length > 0 && (
-              <ul
-                ref={listRef}
-                className="absolute z-50 left-0 right-0 mt-2 bg-white border rounded-xl shadow max-h-60 overflow-auto"
-              >
+              <ul ref={listRef}
+                  className="absolute z-50 left-0 right-0 mt-2 bg-white border rounded-xl shadow max-h-60 overflow-auto">
                 {suggestions.map((s, idx) => (
                   <li
                     key={s.id}
@@ -153,8 +149,7 @@ export default function Navbar() {
         <div className="min-sm:hidden flex items-center gap-2 text-xl">
           <button
             onClick={() => setMobileSearchOpen(true)}
-            className="bg-white p-2 rounded-3xl"
-          >
+            className="bg-white p-2 rounded-3xl">
             <i className="fa-solid fa-magnifying-glass"></i>
           </button>
           <a href="/favorites">
@@ -175,21 +170,16 @@ export default function Navbar() {
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={onKeyDown}
               className="w-full border border-gray-300 rounded-2xl px-4 pr-12 py-2 focus:outline-none"
-              autoFocus
-            />
+              autoFocus/>
 
             {open && suggestions.length > 0 && (
-              <ul
-                ref={listRef}
-                className="absolute z-40 left-0 right-0 mt-2 bg-white border rounded-xl shadow max-h-60 overflow-auto"
-              >
+              <ul ref={listRef}
+                  className="absolute z-40 left-0 right-0 mt-2 bg-white border rounded-xl shadow max-h-60 overflow-auto">
                 {suggestions.map((s, idx) => (
-                  <li
-                    key={s.id}
-                    onMouseDown={(e) => { e.preventDefault(); goToRecipe(s) }}
-                    onMouseEnter={() => setActiveIndex(idx)}
-                    className={`px-4 py-3 cursor-pointer flex justify-between items-center ${activeIndex === idx ? 'bg-gray-100' : ''}`}
-                  >
+                  <li key={s.id}
+                      onMouseDown={(e) => { e.preventDefault(); goToRecipe(s) }}
+                      onMouseEnter={() => setActiveIndex(idx)}
+                      className={`px-4 py-3 cursor-pointer flex justify-between items-center ${activeIndex === idx ? 'bg-gray-100' : ''}`}>
                     <div className="flex flex-col">
                       <span className="font-medium">{s.title}</span>
                       {s.subtitle && <span className="text-sm text-gray-500">{s.subtitle}</span>}
@@ -200,10 +190,8 @@ export default function Navbar() {
               </ul>
             )}
 
-            <button
-              onClick={() => setMobileSearchOpen(false)}
-              className="absolute top-6 right-6 text-gray-500 z-50"
-            >
+            <button onClick={() => setMobileSearchOpen(false)}
+                className="absolute top-6 right-6 text-gray-500 z-50">
               <i className="fa-solid fa-xmark text-2xl"></i>
             </button>
           </div>

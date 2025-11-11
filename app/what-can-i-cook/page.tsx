@@ -89,17 +89,13 @@ const WhatCanICookPage = () => {
 
         {/* Input */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
-          <input
-            type="text"
-            placeholder="e.g. chicken, tomato, cheese"
-            value={ingredientInput}
-            onChange={(e) => setIngredientInput(e.target.value)}
-            className="w-full sm:w-2/3 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
-          />
-          <button
-            onClick={handleSearch}
-            className="bg-orange-500 text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-600 transition"
-          >
+          <input type="text"
+                placeholder="e.g. chicken, tomato, cheese"
+                value={ingredientInput}
+                onChange={(e) => setIngredientInput(e.target.value)}
+                className="w-full sm:w-2/3 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"/>
+          <button onClick={handleSearch}
+            className="bg-orange-500 text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-600 transition" >
             Find Recipes
           </button>
         </div>
@@ -113,8 +109,7 @@ const WhatCanICookPage = () => {
               <div
                 key={dish.id}
                 onClick={() => router.push(`/recipes/${dish.id}`)}
-                className="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition cursor-pointer group"
-              >
+                className="bg-white rounded-xl overflow-hidden shadow hover:shadow-lg transition cursor-pointer group" >
                 <div className="w-full h-52 sm:h-56 md:h-60 overflow-hidden relative">
                   <img
                     src={dish.image}
@@ -133,13 +128,10 @@ const WhatCanICookPage = () => {
                     <span className="text-red-600 font-bold text-lg sm:text-xl">{dish.time}</span>
                     <button
                       onClick={(e) => { e.stopPropagation(); handleFavorites(dish) }}
-                      className="p-2 rounded-full hover:bg-red-100 transition"
-                    >
-                      <i
-                        className={`fa-solid fa-heart text-lg sm:text-xl ${
-                          favorites.some(fav => fav.id === dish.id) ? 'text-red-500' : 'text-black'
-                        }`}
-                      ></i>
+                      className="p-2 rounded-full hover:bg-red-100 transition" >
+                      <i className={`fa-solid fa-heart text-lg sm:text-xl ${
+                          favorites.some(fav => fav.id === dish.id) ? 'text-red-500' : 'text-black'}`}>    
+                    </i>
                     </button>
                   </div>
                 </div>

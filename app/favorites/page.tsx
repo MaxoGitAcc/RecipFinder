@@ -48,23 +48,19 @@ const FavoritesPage = () => {
             <div
               key={item.id}
               onClick={() => router.push(`/recipes/${item.id}`)}
-              className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition cursor-pointer group relative"
-            >
+              className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition cursor-pointer group relative">
               <div className="relative w-full h-56 sm:h-60 md:h-64 overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"/>
 
                 {/* Remove Button */}
-                <button
-                  onClick={(e) => {
+                <button onClick={(e) => {
                     e.stopPropagation()
                     handleRemove(item.id)
                   }}
-                  className="absolute top-3 right-3 p-2 rounded-full bg-white hover:bg-red-100 transition shadow-md z-10"
-                >
+                  className="absolute top-3 right-3 p-2 rounded-full bg-white hover:bg-red-100 transition shadow-md z-10">
                   <i className="fa-solid fa-trash text-red-500 text-lg"></i>
                 </button>
               </div>

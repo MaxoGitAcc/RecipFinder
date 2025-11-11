@@ -22,11 +22,9 @@ const RecipePage = () => {
         {/* Left: Dish Image */}
         <div className="lg:w-2/3 w-full flex justify-center lg:justify-start">
           <div className="w-full h-full rounded-3xl overflow-hidden shadow-xl">
-            <img
-              src={dish.image}
-              alt={dish.title}
-              className="w-full h-80 sm:h-96 md:h-[500px] lg:h-[580px] object-cover transform transition-transform duration-300 hover:scale-105"
-            />
+            <img src={dish.image}
+                alt={dish.title}
+                className="w-full h-80 sm:h-96 md:h-[500px] lg:h-[580px] object-cover transform transition-transform duration-300 hover:scale-105"/>
           </div>
         </div>
 
