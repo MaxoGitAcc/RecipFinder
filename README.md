@@ -1,8 +1,22 @@
-# Next.js & HeroUI Template
+# RecipeFinder
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+A modern recipe web application built with **Next.js 14** and **HeroUI v2**, designed for fast performance, beautiful UI, and smooth animations.
 
 [Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+
+---
+
+## Features
+
+- Browse trending recipes and categories
+- Quick search with autocomplete suggestions
+- Mobile-friendly responsive design
+- Smooth animations with **Framer Motion**
+- Dark/light theme support with **next-themes**
+- TypeScript-powered for type safety
+- Easy customization with **Tailwind CSS** and **Tailwind Variants**
+
+---
 
 ## Technologies Used
 
@@ -14,41 +28,11 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
 
-## How to Use
+---
 
-### Use the template with create-next-app
+## Getting Started
 
-To create a new project based on this template using `create-next-app`, run the following command:
+### 1. Create a new project using this template
 
 ```bash
 npx create-next-app -e https://github.com/heroui-inc/next-app-template
-```
-
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
-# RecipFinder
