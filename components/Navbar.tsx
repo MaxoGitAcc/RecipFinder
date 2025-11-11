@@ -154,11 +154,11 @@ export default function Navbar() {
         <div className="min-sm:hidden flex items-center gap-2 text-xl">
           <button
             onClick={() => setMobileSearchOpen(true)}
-            className="bg-white p-2 rounded-3xl">
+            className="bg-white p-2 px-3 rounded-3xl">
             <i className="fa-solid fa-magnifying-glass"></i>
           </button>
           <a href="/favorites">
-            <i className="fa-solid fa-heart text-2xl text-red-600 bg-white p-2 rounded-3xl cursor-pointer"></i>
+            <i className="fa-solid fa-heart text-2xl text-red-600 bg-white p-2.5 rounded-3xl cursor-pointer"></i>
           </a>
         </div>
       </nav>
