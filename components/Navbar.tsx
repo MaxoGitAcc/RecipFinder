@@ -89,7 +89,9 @@ export default function Navbar() {
   if (!isMounted) {
     return (
       <nav className="w-full bg-orange-500 py-4 px-8 flex items-center justify-between">
-        <a href="/"><h1 className="font-bold text-2xl">RecipeFinder</h1></a>
+        <a href="/">
+          <h1 className="font-bold text-2xl">RecipeFinder</h1>
+          </a>
       </nav>
     )
   }
@@ -98,7 +100,10 @@ export default function Navbar() {
     <section>
       <nav className="fixed top-0 left-0 z-50 w-full bg-orange-500/95 backdrop-blur-sm shadow-md
            py-4 px-8 flex items-center justify-between">
-        <a href="/"><h1 className="font-bold text-2xl">RecipeFinder</h1></a>
+        <a href="/" className='text-white flex gap-2'>
+          <h1 className="font-bold text-2xl">RecipeFinder</h1>
+          <span className="text-2xl">🍲</span>
+        </a>
 
         {/* Desktop search */}
         <div className="flex items-center gap-4 max-sm:hidden">
