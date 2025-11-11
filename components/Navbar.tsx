@@ -96,7 +96,8 @@ export default function Navbar() {
 
   return (
     <section>
-      <nav className="fixed top-0 left-0 z-50 w-full bg-orange-500 py-4 px-8 flex items-center justify-between">
+      <nav className="fixed top-0 left-0 z-50 w-full bg-orange-500/95 backdrop-blur-sm shadow-md
+           py-4 px-8 flex items-center justify-between">
         <a href="/"><h1 className="font-bold text-2xl">RecipeFinder</h1></a>
 
         {/* Desktop search */}
@@ -110,7 +111,7 @@ export default function Navbar() {
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={onKeyDown}
               onFocus={() => { if (suggestions.length) setOpen(true) }}
-              className="w-full border border-black rounded-2xl px-4 pr-12 py-2 focus:outline-none"
+              className="w-full border border-white rounded-2xl px-4 pr-12 py-2 focus:outline-none"
             />
             <button
               onClick={() => handleSubmit(query)}
@@ -146,10 +147,6 @@ export default function Navbar() {
             <i className="fa-solid fa-heart text-2xl text-red-600 bg-white p-2 rounded-3xl cursor-pointer"></i>
           </a>
 
-          <button className="flex items-center gap-1 bg-white px-4 py-2 rounded-2xl font-bold cursor-pointer">
-            Login
-            <i className="fa-solid fa-right-to-bracket"></i>
-          </button>
         </div>
 
         {/* Mobile icons */}
@@ -163,7 +160,6 @@ export default function Navbar() {
           <a href="/favorites">
             <i className="fa-solid fa-heart text-2xl text-red-600 bg-white p-2 rounded-3xl cursor-pointer"></i>
           </a>
-          <i className="fa-solid fa-right-to-bracket bg-white p-2 rounded-3xl"></i>
         </div>
       </nav>
 
@@ -181,12 +177,6 @@ export default function Navbar() {
               className="w-full border border-gray-300 rounded-2xl px-4 pr-12 py-2 focus:outline-none"
               autoFocus
             />
-            <button
-              onClick={() => handleSubmit(query)}
-              className="absolute right-6 top-1/2 transform -translate-y-1/2 text-gray-500 z-10"
-            >
-              
-            </button>
 
             {open && suggestions.length > 0 && (
               <ul
