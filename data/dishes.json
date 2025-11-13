@@ -1,458 +1,457 @@
 [
   {
     "id": 1,
-    "title": "Classic Caesar Wrap",
-    "subtitle": "Quick and portable lunch",
+    "title": "კლასიკური ცეზარის ვრაპი",
+    "subtitle": "სწრაფი და პორტაბელური სადილი",
     "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
     "time": "10 min",
     "rating": 4.4,
-    "type": "Lunch",
+    "type": "სადილი",
     "recipe": [
-      "Mix chopped romaine lettuce, grilled chicken strips, Caesar dressing.",
-      "Place mixture in a tortilla.",
-      "Add Parmesan cheese and roll up.",
-      "Serve immediately."
+      "შეურიეთ ნაჭრებად დაჭრილი რომაული სალათი, შემწვარი ქათმის ნაჭრები და ცეზარის სოუსი.",
+      "ჩასვით ტორტილაში.",
+      "დაამატეთ პარმეზანი და მოხაზეთ."
     ],
     "ingredients": [
-      "1 large tortilla",
-      "Grilled chicken strips",
-      "1 cup chopped romaine lettuce",
-      "2 tbsp Caesar dressing",
-      "¼ cup Parmesan cheese (shredded)",
-      "Salt & pepper to taste"
+      "1 დიდი ტორტილა",
+      "შემწვარი ქათმის ნაჭრები",
+      "1 ჭიქა დაჭრილი რომაული სალათი",
+      "2 სუფრის კოვზი ცეზარის სოუსი",
+      "¼ ჭიქა პარმეზანი (დაჭრილი)",
+      "მარილი და პილპილი გემოვნებით"
     ]
   },
   {
     "id": 2,
-    "title": "Thai Red Curry with Chicken",
-    "subtitle": "Spicy and fragrant",
+    "title": "ტაილანდური წითელი კარრი ქათმით",
+    "subtitle": "მცხარე და სურნელოვანი",
     "image": "https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg",
     "time": "30 min",
     "rating": 4.7,
-    "type": "Dinner",
+    "type": "ვახშამი",
     "recipe": [
-      "Sauté red curry paste in oil.",
-      "Add coconut milk and bring to simmer.",
-      "Add chicken pieces and vegetables, cook through.",
-      "Serve with steamed rice."
+      "გააცხელეთ წითელი კარრის პასტა ზეთში.",
+      "დაამატეთ ქოქოსის რძე და მიიყვანეთ ხარშვამდე.",
+      "დაამატეთ ქათმის ნაჭრები და ბოსტნეული, მოხარშეთ.",
+      "მიირთვით წვნიან ბრინჯთან ერთად."
     ],
     "ingredients": [
-      "300 g chicken (cubed)",
-      "2 tbsp red curry paste",
-      "1 can coconut milk",
-      "1 red bell pepper (sliced)",
-      "½ cup snow peas",
-      "Steamed rice to serve",
-      "Basil leaves (optional)"
+      "300 გ ქათმის ნაჭრები (კუბებად)",
+      "2 სუფრის კოვზი წითელი კარრის პასტა",
+      "1 ქილა კოკოსის რძე",
+      "1 წითელი პილპილი (დაჭრილი)",
+      "½ ჭიქა ბარდა",
+      "პარშირებული ბრინჯი",
+      "ბაზილიკის ფოთლები (სურვილისამებრ)"
     ]
   },
   {
     "id": 3,
-    "title": "Pesto Pasta with Sun‑Dried Tomatoes",
-    "subtitle": "Italian flavor in a snap",
+    "title": "პესტო მაკარონი მზეზე გამხმარი პომიდვრით",
+    "subtitle": "იტალიური გემო სწრაფად",
     "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
     "time": "22 min",
     "rating": 4.6,
-    "type": "Dinner",
+    "type": "ვახშამი",
     "recipe": [
-      "Boil pasta until al dente.",
-      "Stir in pesto sauce and sun‑dried tomatoes.",
-      "Add a splash of pasta water if needed.",
-      "Serve with grated parmesan."
+      "მოხარშეთ მაკარონი.",
+      "შეურიეთ პესტო სოუსი და მზეზე გამხმარი პომიდორი.",
+      "დაუმატეთ ცოტა მაკარონის წყალი საჭიროებისამებრ.",
+      "მიირთვით გახეხილი პარმეზანით."
     ],
     "ingredients": [
-      "200 g pasta",
-      "½ cup pesto sauce",
-      "¼ cup sun‑dried tomatoes (chopped)",
-      "2 tbsp olive oil",
-      "Parmesan cheese to serve",
-      "Salt & pepper to taste"
+      "200 გ მაკარონი",
+      "½ ჭიქა პესტო სოუსი",
+      "¼ ჭიქა მზესშრეწილი პომიდორი (დაჭრილი)",
+      "2 სუფრის კოვზი ზეითუნის ზეთი",
+      "პარმეზანი",
+      "მარილი და პილპილი გემოვნებით"
     ]
   },
   {
     "id": 4,
-    "title": "Classic Beef Burger",
-    "subtitle": "Juicy and flavorful",
+    "title": "კლასიკური საქონლის ბურგერი",
+    "subtitle": "ნოყიერი და გემრიელი",
     "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg",
     "time": "30 min",
     "rating": 4.8,
-    "type": "Lunch",
+    "type": "სადილი",
     "recipe": [
-      "Season beef patties with salt and pepper.",
-      "Grill patties to desired doneness.",
-      "Toast buns lightly.",
-      "Assemble burger with lettuce, tomato, and cheese.",
-      "Serve with fries or salad."
+      "საქონლის ხორცის კატლეტები მარილითა და პილპილით შეაზავეთ.",
+      "შეწვით ბურგერები სასურველ დონემდე.",
+      "გააცხელეთ პური მსუბუქად.",
+      "დააწყეთ სალათა, პომიდორი და ყველი ბურგერზე.",
+      "მიირთვით ფრისთან ან სალათთან ერთად."
     ],
     "ingredients": [
-      "500 g ground beef",
-      "4 burger buns",
-      "4 slices cheddar cheese",
-      "1 tomato (sliced)",
-      "Lettuce leaves",
-      "2 tbsp mayonnaise",
-      "Salt & pepper to taste"
+      "500 გ ხორცი",
+      "4 ბურგერის პური",
+      "4 ნაჭერი ჩედარის ყველი",
+      "1 პომიდორი (დაჭრილი)",
+      "სალათის ფოთლები",
+      "2 სუფრის კოვზი მაიონეზი",
+      "მარილი და პილპილი გემოვნებით"
     ]
   },
   {
     "id": 5,
-    "title": "Beef Tacos",
-    "subtitle": "Family‑friendly Tex‑Mex meal",
+    "title": "საქონლის ტაკოები",
+    "subtitle": "ოჯახისთვის კერძი",
     "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
     "time": "18 min",
     "rating": 4.8,
-    "type": "Dinner",
+    "type": "ვახშამი",
     "recipe": [
-      "Brown ground beef with taco seasoning.",
-      "Warm taco shells.",
-      "Fill shells with beef, lettuce, tomato, cheese.",
-      "Top with sour cream and salsa.",
-      "Serve."
+      "შეწვით ხორცი ტაკოს სანელებელთან ერთად.",
+      "გააცხელეთ ტაკოს გარსი.",
+      "შეავსეთ საქონლით, სალათით, პომიდვრით და ყველით.",
+      "დაუსვით სოუსი ან სალსა.",
+      "მიირთვით."
     ],
     "ingredients": [
-      "400 g ground beef",
-      "8 taco shells",
-      "1 cup shredded lettuce",
-      "1 tomato (diced)",
-      "½ cup shredded cheddar cheese",
-      "Sour cream & salsa to taste"
+      "400 გ ხორცი",
+      "8 ტაკოს გარსი",
+      "1 ჭიქა დაჭრილი სალათი",
+      "1 პომიდორი (დაჭრილი)",
+      "½ ჭიქა ჩედარის ყველი",
+      "სოუსი ან სალსა გემოვნებით"
     ]
   },
   {
     "id": 6,
-    "title": "Blueberry Pancakes",
-    "subtitle": "Weekend morning vibes",
+    "title": "ბლუბერის პანკეიქები",
+    "subtitle": "საბოლოო დილის განწყობა",
     "image": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
     "time": "20 min",
     "rating": 4.9,
-    "type": "Breakfast",
+    "type": "საუზმე",
     "recipe": [
-      "Mix flour, sugar, baking powder, and salt.",
-      "Whisk in milk, eggs, and melted butter.",
-      "Fold in blueberries.",
-      "Cook pancakes on a greased skillet until golden.",
-      "Serve with maple syrup."
+      "შეურიეთ ფქვილი, შაქარი, საცხობი ფხვნილი და მარილი.",
+      "დაუმატეთ რძე, კვერცხი და გამდნარი კარაქი.",
+      "შეურიეთ ბლუბერი.",
+      "შეჭამეთ ტაფაზე, სანამ ოქროსფერი გახდება.",
+      "მიირთვით სიროპთან ერთად."
     ],
     "ingredients": [
-      "1 cup flour",
-      "2 tbsp sugar",
-      "1 tsp baking powder",
-      "¼ tsp salt",
-      "1 cup milk",
-      "1 egg",
-      "2 tbsp melted butter",
-      "½ cup blueberries",
-      "Maple syrup for serving"
+      "1 ჭიქა ფქვილი",
+      "2 სუფრის კოვზი შაქარი",
+      "1 ჩაის კოვზი საცხობი ფხვნილი",
+      "¼ ჩაის კოვზი მარილი",
+      "1 ჭიქა რძე",
+      "1 კვერცხი",
+      "2 სუფრის კოვზი კარაქი (გამდნარი)",
+      "½ ჭიქა ბლუბერი",
+      "Maple სიროპი გემოვნებით"
     ]
   },
   {
     "id": 7,
-    "title": "Grilled Salmon Bowl",
-    "subtitle": "Light & protein‑packed meal",
+    "title": "გრილირებული ორაგულის თასი",
+    "subtitle": " მსუბუქი და პროტეინით მდიდარი",
     "image": "https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg",
     "time": "28 min",
     "rating": 4.8,
-    "type": "Lunch",
+    "type": "სადილი",
     "recipe": [
-      "Season salmon with salt, pepper, and lemon.",
-      "Grill salmon until cooked through.",
-      "Prepare rice or quinoa base.",
-      "Top with grilled vegetables and salmon.",
-      "Drizzle with teriyaki or soy sauce."
+      "ორაგულს მარილი, პილპილი და ლიმონი შეაზავეთ.",
+      "გრილზე შეწვით სანამ მზად არ იქნება.",
+      "მოამზადეთ ბრინჯის ან კინოას ბაზაზე.",
+      "ზემოდან მოაყარეთ გრილირებული ბოსტნეული და ორაგული.",
+      "დაასხით ტერიაკი ან სოიოს სოუსი."
     ],
     "ingredients": [
-      "2 salmon fillets",
-      "1 cup cooked rice or quinoa",
-      "1 red bell pepper (sliced)",
-      "1 zucchini (sliced)",
-      "2 tbsp soy sauce",
-      "1 tbsp lemon juice",
-      "Salt & pepper to taste"
+      "2 ორაგულის ფილე",
+      "1 ჭიქა მოხარშული ბრინჯი ან ქინვა",
+      "1 წითელი პილპილი (დაჭრილი)",
+      "1 ზუკინი (დაჭრილი)",
+      "2 სუფრის კოვზი სოიოს სოუსი",
+      "1 სუფრის კოვზი ლიმონის წვენი",
+      "მარილი და პილპილი გემოვნებით"
     ]
   },
   {
     "id": 8,
-    "title": "Iced Caramel Latte",
-    "subtitle": "Cool down with a coffee twist",
+    "title": "გაყინული კარამელის ლატე",
+    "subtitle": "გააგრილეთ ყავით",
     "image": "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg",
     "time": "7 min",
     "rating": 4.4,
-    "type": "Drink",
+    "type": "სასმელი",
     "recipe": [
-      "Brew espresso or strong coffee.",
-      "Fill a glass with ice.",
-      "Pour coffee over ice.",
-      "Add milk and caramel syrup.",
-      "Stir and enjoy."
+      "დალიეთ ესპრესო ან ძლიერი ყავა.",
+      "შეავსეთ ჭიქა ყინულით.",
+      "დასხით ყავა ყინულზე.",
+      "დაუმატეთ რძე და კარამელის სიროპი.",
+      "შეურიეთ და მიირთვით."
     ],
     "ingredients": [
-      "1 shot espresso or 120 ml strong coffee",
-      "½ cup milk",
-      "2 tbsp caramel syrup",
-      "Ice cubes",
-      "Whipped cream (optional)"
+      "1 შოტი ესპრესო ან 120 მლ ძლიერი ყავა",
+      "½ ჭიქა რძე",
+      "2 სუფრის კოვზი კარამელის სიროპი",
+      "ყინულის კუბები",
+      "შებერილი კარაქი (სურვილისამებრ)"
     ]
   },
   {
     "id": 9,
-    "title": "Margherita Pizza",
-    "subtitle": "Cheesy perfection in every bite",
+    "title": "პიცა მარგარიტა",
+    "subtitle": "ყველიანი სრულყოფილება ყოველ ლუკმაში",
     "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg",
     "time": "40 min",
     "rating": 4.9,
-    "type": "Dinner",
+    "type": "ვახშამი",
     "recipe": [
-      "Preheat oven to 250°C (480°F).",
-      "Roll out pizza dough.",
-      "Spread tomato sauce evenly.",
-      "Top with mozzarella and fresh basil.",
-      "Bake until crust is golden and cheese melts.",
-      "Slice and serve hot."
+      "გააცხელეთ ღუმელი 250°C (480°F).",
+      "გააბრტყელეთ პიცის ცომი",
+      "თანაბრად გაანაწილეთ ტომატის სოუსი.",
+      "ზემოდან მოაყარეთ მოცარელა და ახალი რეჰანი.",
+      "გამოაცხვეთ სანამ ქერქი ოქროსფერი არ გახდება და ყველი არ გადნება.",
+      "დაჭერით და მიირთვით ცხელი."
     ],
     "ingredients": [
-      "1 pizza dough (store‑bought or homemade)",
-      "½ cup tomato sauce",
-      "150 g fresh mozzarella (sliced)",
-      "Fresh basil leaves",
-      "1 tbsp olive oil",
-      "Salt to taste"
+      "1 პიცის ცომი (მაღაზიაში ნაყიდი ან ხელნაკეთი)",
+      "½ ჭიქა ტომატის სოუსი",
+      "150 გ ახალი მოცარელა (დაჭრილი)",
+      "ახალი რეჰანის ფოთლები",
+      "1 სუფრის კოვზი ზეითუნის ზეთი",
+      "მარილი გემოვნებით"
     ]
   },
   {
     "id": 10,
-    "title": "Avocado Toast",
-    "subtitle": "Healthy breakfast or snack",
+    "title": "ავოკადოს ტოსტი",
+    "subtitle": "ჯანსაღი საუზმე ან სნექი",
     "image": "https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg",
     "time": "8 min",
     "rating": 4.5,
-    "type": "Breakfast",
+    "type": "საუზმე",
     "recipe": [
-      "Toast bread slices.",
-      "Mash avocado and spread on toast.",
-      "Sprinkle salt, pepper, and chili flakes.",
-      "Top with cherry tomatoes or eggs."
+      "გადაიღეთ პური ტოსტერით.",
+      "დაჭყლიტეთ ავოკადო და წაუსვით ტოსტზე.",
+      "მოაყარეთ მარილი, პილპილი და წითელი წიწაკის ფანტელები.",
+      "დააყენეთ ჩერი პომიდვრით ან კვერცხით."
     ],
     "ingredients": [
-      "2 slices of bread",
-      "1 ripe avocado",
-      "Salt & pepper to taste",
-      "Chili flakes (optional)",
-      "Cherry tomatoes (optional)"
+      "2 ნაჭერი პური",
+      "1 მომწიფებული ავოკადო",
+      "მარილი და პილპილი გემოვნებით",
+      "წითელი წიწაკის ფანტელები (სურვილისამებრ)",
+      "ჩერი პომიდორი (სურვილისამებრ)"
     ]
   },
   {
     "id": 11,
-    "title": "Chicken Teriyaki Stir Fry",
-    "subtitle": "Quick weeknight dinner",
+    "title": "ქათმის ტერიაკი stir-fry",
+    "subtitle": "სწრაფი კვირის ვახშამი",
     "image": "https://images.unsplash.com/photo-1636401870585-a8852371e84a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2940",
     "time": "25 min",
     "rating": 4.7,
-    "type": "Dinner",
+    "type": "ვახშამი",
     "recipe": [
-      "Sauté chicken pieces in oil.",
-      "Add vegetables and cook until tender.",
-      "Pour teriyaki sauce and stir.",
-      "Serve hot with rice or noodles."
+      "შეწვით ქათმის ნაჭრები ზეთში.",
+      "დაამატეთ ბოსტნეული და მოამზადეთ ნაზი დერმისებამდე.",
+      "დასხით ტერიანკი სოუსი და აურიეთ.",
+      "მიირთვით ცხელი ბრინჯით ან მაკარონით."
     ],
     "ingredients": [
-      "300 g chicken breast",
-      "1 cup broccoli florets",
-      "1 carrot (sliced)",
-      "2 tbsp teriyaki sauce",
-      "Cooked rice or noodles to serve"
+      "300 გ ქათმის მკერდის ნაჭრები",
+      "1 ჭიქა ბროკოლი",
+      "1 კაროტი (დაჭრილი)",
+      "2 სუფრის კოვზი ტერიანკი სოუსი",
+      "მოხარშული ბრინჯი ან მაკარონი"
     ]
   },
   {
     "id": 12,
-    "title": "Strawberry Smoothie",
-    "subtitle": "Refreshing summer drink",
+    "title": "მარწყვის სმუზი",
+    "subtitle": "გამაგრილებელი საზაფხულო სასმელი",
     "image": "https://images.pexels.com/photos/775031/pexels-photo-775031.jpeg",
     "time": "5 min",
     "rating": 4.6,
-    "type": "Drink",
+    "type": "სასმელი",
     "recipe": [
-      "Blend strawberries, banana, and milk until smooth.",
-      "Pour into a glass and enjoy."
+      "შეურიეთ მარწყვი, ბანანი და რძე სანამ ერთგვაროვანი არ გახდება.",
+      "დასხით ჭიქაში და მიირთვით."
     ],
     "ingredients": [
-      "1 cup strawberries",
-      "1 banana",
-      "½ cup milk",
-      "Honey to taste (optional)"
+      "1 ჭიქა მარწყვი",
+      "1 ბანანი",
+      "½ ჭიქა რძე",
+      "თაფლი გემოვნებით (სურვილისამებრ)"
     ]
   },
   {
     "id": 13,
-    "title": "Veggie Quesadilla",
-    "subtitle": "Cheesy and satisfying snack",
+    "title": "ბოსტნეულის ქესადილია",
+    "subtitle": "ყველიანი და ნოყიერი სნექი",
     "image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg",
     "time": "15 min",
     "rating": 4.5,
-    "type": "Lunch",
+    "type": "სადილი",
     "recipe": [
-      "Place cheese and veggies on a tortilla.",
-      "Fold and cook on skillet until golden.",
-      "Slice and serve with salsa."
+      "დადეთ ყველი და ბოსტნეული ტორტილაზე.",
+      "გახეხეთ და შეწვით ტაფაზე, სანამ ოქროსფერი გახდება.",
+      "დაჭერით ნაჭრებად და მიირთვით სალსასთან ერთად."
     ],
     "ingredients": [
-      "1 large tortilla",
-      "½ cup shredded cheese",
-      "1/2 bell pepper (sliced)",
-      "½ onion (sliced)",
-      "Salsa to serve"
+      "1 დიდი ტორტილა",
+      "½ ჭიქა გახეხილი ყველი",
+      "½ წითელი პილპილი (დაჭრილი)",
+      "½ ხახვი (დაჭრილი)",
+      "სალსა გემოვნებით"
     ]
   },
   {
     "id": 14,
-    "title": "Mango Lassi",
-    "subtitle": "Sweet and creamy Indian drink",
+    "title": "მანგო ლასსი",
+    "subtitle": "ტკბილი და კრემისებური ინდური სასმელი",
     "image": "https://plus.unsplash.com/premium_photo-1695411846421-d26e731f0054?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2072",
     "time": "5 min",
     "rating": 4.7,
-    "type": "Drink",
+    "type": "სასმელი",
     "recipe": [
-      "Blend mango pulp, yogurt, sugar, and ice until smooth.",
-      "Pour into a glass and serve chilled."
+      "შეურიეთ მანგოს პულპი, იოგურტი, შაქარი და ყინული სანამ ერთგვაროვანი არ გახდება.",
+      "დასხით ჭიქაში და მიირთვით გაგრილებული."
     ],
     "ingredients": [
-      "1 cup mango pulp",
-      "1/2 cup yogurt",
-      "1-2 tbsp sugar",
-      "Ice cubes"
+      "1 ჭიქა მანგოს პულპი",
+      "½ ჭიქა იოგურტი",
+      "1–2 სუფრის კოვზი შაქარი",
+      "ყინულის კუბები"
     ]
   },
   {
     "id": 15,
-    "title": "Caprese Salad",
-    "subtitle": "Fresh and simple Italian starter",
+    "title": "კაპრეზეს სალათი",
+    "subtitle": "სწრაფი და მარტივი იტალიური სტარტერი",
     "image": "https://images.pexels.com/photos/5938/food-salad-healthy-lunch.jpg",
     "time": "10 min",
     "rating": 4.6,
-    "type": "Lunch",
+    "type": "სადილი",
     "recipe": [
-      "Slice tomatoes and mozzarella.",
-      "Arrange on a plate with basil leaves.",
-      "Drizzle olive oil and balsamic vinegar."
+      "დაჭერით პომიდორი და მოცარელა.",
+      "მოაწყეთ თეფშზე ბაზილიკის ფოთლებით.",
+      "დაუსხით ზეითუნის ზეთი და ბალზამიკური ძმარი."
     ],
     "ingredients": [
-      "2 large tomatoes",
-      "150 g mozzarella",
-      "Fresh basil leaves",
-      "2 tbsp olive oil",
-      "1 tbsp balsamic vinegar",
-      "Salt & pepper"
+      "2 დიდი პომიდორი",
+      "150 გ მოცარელა",
+      "ბაზილიკის ფოთლები",
+      "2 სუფრის კოვზი ზეითუნის ზეთი",
+      "1 სუფრის კოვზი ბალზამური ძმარი",
+      "მარილი და პილპილი"
     ]
   },
   {
     "id": 16,
-    "title": "Chocolate Chip Cookies",
-    "subtitle": "Classic sweet treat",
+    "title": "შოკოლადის ჩიპ კუკიზი",
+    "subtitle": "კლასიკური ტკბილი ნამცხვარი",
     "image": "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg",
     "time": "25 min",
     "rating": 4.9,
-    "type": "Snack",
+    "type": "სნექი",
     "recipe": [
-      "Preheat oven to 180°C (350°F).",
-      "Mix butter, sugar, eggs, and vanilla.",
-      "Add flour, baking soda, and chocolate chips.",
-      "Scoop onto baking tray and bake 10–12 min."
+      "გააცხელეთ ღუმელი 180°C (350°F).",
+      "შეურიეთ კარაქი, შაქარი, კვერცხი და ვანილი.",
+      "დაამატეთ ფქვილი, საცხობი სოდა და შოკოლადის ჩიფსები.",
+      "დადეთ თეფშზე და გამოაცხვეთ 10–12 წუთი."
     ],
     "ingredients": [
-      "1 cup butter",
-      "1 cup sugar",
-      "2 eggs",
-      "1 tsp vanilla extract",
-      "2 1/4 cups flour",
-      "1 tsp baking soda",
-      "1 cup chocolate chips"
+      "1 ჭიქა კარაქი",
+      "1 ჭიქა შაქარი",
+      "2 კვერცხი",
+      "1 ჩაის კოვზი ვანილის ექსტრაქტი",
+      "2 ¼ ჭიქა ფქვილი",
+      "1 ჩაის კოვზი საცხობი სოდა",
+      "1 ჭიქა შოკოლადის ჩიპები"
     ]
   },
   {
     "id": 17,
-    "title": "Greek Yogurt Parfait",
-    "subtitle": "Healthy breakfast or snack",
+    "title": "ბერძნული იოგურტის პარფე",
+    "subtitle": "ჯანსაღი საუზმე ან სნექი",
     "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
     "time": "7 min",
     "rating": 4.5,
-    "type": "Breakfast",
+    "type": "საუზმე",
     "recipe": [
-      "Layer Greek yogurt, granola, and berries in a glass.",
-      "Repeat layers and top with honey."
+      "ჭიქაში ფენებად აურიეთ ბერძნული იოგურტი, გრანოლა და კენკრა..",
+      "გაიმეორეთ ფენები და დაასხით თაფლი."
     ],
     "ingredients": [
-      "1 cup Greek yogurt",
-      "1/2 cup granola",
-      "1/2 cup mixed berries",
-      "1 tbsp honey"
+      "1 ჭიქა ბერძნული იოგურტი",
+      "½ ჭიქა გრანოლა",
+      "½ ჭიქა ნარევი კენკრა",
+      "1 სუფრის კოვზი თაფლი"
     ]
   },
   {
     "id": 18,
-    "title": "Spaghetti Carbonara",
-    "subtitle": "Creamy Italian pasta",
+    "title": "სპაგეტი კარბონარა",
+    "subtitle": "კრემისებური იტალიური მაკარონი",
     "image": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
     "time": "20 min",
     "rating": 4.8,
-    "type": "Dinner",
+    "type": "ვახშამი",
     "recipe": [
-      "Cook spaghetti until al dente.",
-      "Fry pancetta until crispy.",
-      "Mix eggs and Parmesan, combine with pasta and pancetta.",
-      "Serve immediately with black pepper."
+      "მოხარშეთ სპაგეტი ალ დენტე.",
+      "შეწვით პანცეტა სანამ ხრაშუნა არ გახდება.",
+      "შეურიეთ კვერცხი და პარმეზანი, აურიეთ მაკარონთან ერთად.",
+      "მიირთვით დაუყოვნებლად შავი პილპილით."
     ],
     "ingredients": [
-      "200 g spaghetti",
-      "100 g pancetta",
-      "2 eggs",
-      "50 g Parmesan cheese",
-      "Salt & pepper"
+      "200 გ სპაგეტი",
+      "100 გ პანცეტა",
+      "2 კვერცხი",
+      "50 გ პარმეზანი",
+      "მარილი და პილპილი"
     ]
   },
   {
     "id": 19,
-    "title": "Vegetable Stir Fry",
-    "subtitle": "Quick and healthy dinner",
+    "title": "ბოსტნეულის Stir-fry",
+    "subtitle": "სწრაფი და ჯანსაღი ვახშამი",
     "image": "https://images.pexels.com/photos/357743/pexels-photo-357743.jpeg",
     "time": "15 min",
     "rating": 4.6,
-    "type": "Dinner",
+    "type": "ვახშამი",
     "recipe": [
-      "Heat oil in a wok.",
-      "Add assorted vegetables and stir-fry until tender-crisp.",
-      "Add soy sauce and garlic, stir well.",
-      "Serve hot with rice or noodles."
+      "გააცხელეთ ზეთი ვოკში.",
+      "დაამატეთ სხვადასხვა ბოსტნეული და Stir-fry სანამ ნაზი-ქერქი არ გახდება.",
+      "დაამატეთ სოიოს სოუსი და ნიორი, აურიეთ.",
+      "მიირთვით ცხელი ბრინჯით ან მაკარონით."
     ],
     "ingredients": [
-      "1 cup broccoli florets",
-      "1 carrot, sliced",
-      "1 bell pepper, sliced",
-      "2 tbsp soy sauce",
-      "1 clove garlic, minced",
-      "1 tbsp oil"
+      "1 ჭიქა ბროკოლი",
+      "1 კაროტი (დაჭრილი)",
+      "1 პილპილი (დაჭრილი)",
+      "2 სუფრის კოვზი სოიოს სოუსი",
+      "1 ნიორის კბილი (დაჭრილი)",
+      "1 სუფრის კოვზი ზეთი"
     ]
   },
   {
     "id": 20,
-    "title": "Banana Bread",
-    "subtitle": "Moist and flavorful snack",
+    "title": "ბანანის პური",
+    "subtitle": "ნოყიერი და სურნელოვანი სნექი",
     "image": "https://images.unsplash.com/photo-1632931057819-4eefffa8e007?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1974",
     "time": "60 min",
     "rating": 4.9,
-    "type": "Snack",
+    "type": "სნექი",
     "recipe": [
-      "Preheat oven to 175°C (350°F).",
-      "Mash bananas and mix with sugar, eggs, and butter.",
-      "Add flour and baking soda.",
-      "Pour into loaf pan and bake 50–60 min."
+      "გააცხელეთ ღუმელი 175°C (350°F).",
+      "დაჭყლიტეთ ბანანი და აურიეთ შაქართან, კვერცხთან და კარაქთან.",
+      "დაუმატეთ ფქვილი და საცხობი სოდა.",
+      "დასხით ფორმაში და გამოაცხვეთ 50–60 წუთი."
     ],
     "ingredients": [
-      "3 ripe bananas",
-      "1/2 cup sugar",
-      "1/3 cup melted butter",
-      "1 egg",
-      "1 1/2 cups flour",
-      "1 tsp baking soda",
-      "Pinch of salt"
+      "3 მომწიფებული ბანანი",
+      "½ ჭიქა შაქარი",
+      "1/3 ჭიქა გამდნარი კარაქი",
+      "1 კვერცხი",
+      "1 ½ ჭიქა ფქვილი",
+      "1 ჩაის კოვზი საცხობი სოდა",
+      "ცოტაოდენი მარილი"
     ]
-  }
+  }  
 ]

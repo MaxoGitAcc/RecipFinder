@@ -81,28 +81,28 @@ const WhatCanICookPage = () => {
       <div className="w-full max-w-[1200px] mx-auto">
         {/* Header */}
         <div className="text-center mb-10">
-          <h1 className="text-4xl font-bold mb-4">What can I cook?</h1>
+          <h1 className="text-4xl font-bold mb-4">რისი გაკეთება შემიძლია?</h1>
           <p className="text-lg text-gray-700">
-            Enter the ingredients you have (comma separated) and find recipes you can make.
+            ჩაწერერე თუ რა ინგრედინეტები გაქვს (მძიმით გამოყოფილად) და იპოვე შესაფერისი რეცეპტი.
           </p>
         </div>
 
         {/* Input */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
           <input type="text"
-                placeholder="e.g. chicken, tomato, cheese"
+                placeholder="მაგ. ქათამი, თევზი..."
                 value={ingredientInput}
                 onChange={(e) => setIngredientInput(e.target.value)}
                 className="w-full sm:w-2/3 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"/>
           <button onClick={handleSearch}
             className="bg-orange-500 text-white font-semibold px-6 py-3 rounded-lg hover:bg-orange-600 transition" >
-            Find Recipes
+            მოძებნა
           </button>
         </div>
 
         {/* Matching Dishes Grid */}
         {matchingDishes.length === 0 ? (
-          <p className="text-center text-gray-500 text-lg">No recipes match your ingredients.</p>
+          <p className="text-center text-gray-500 text-lg">თქვენი ინგრედინეტბის შესაბამისი კერძი არ მოიძებნა</p>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {matchingDishes.map((dish) => (

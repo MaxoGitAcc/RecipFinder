@@ -30,8 +30,8 @@ const FavoritesPage = () => {
   if (favorites.length === 0) {
     return (
       <section className="p-8 flex flex-col items-center justify-center h-[70vh] text-center">
-        <h1 className="text-3xl font-bold text-gray-800">Your Favorite Recipes</h1>
-        <p className="mt-4 text-gray-500 text-lg">You haven't added any favorites yet.</p>
+        <h1 className="text-3xl font-bold text-gray-800">შენი ფავორიტი რეცეპტები</h1>
+        <p className="mt-4 text-gray-500 text-lg">ფავორიტების სია ცარილეია...</p>
       </section>
     )
   }
@@ -40,7 +40,7 @@ const FavoritesPage = () => {
     <section className="px-4 pt-[6rem] sm:px-6 lg:px-10 py-8 bg-gray-50 min-h-screen">
       <div className="w-full max-w-[1564px] mx-auto">
         <div className="text-3xl font-bold mb-6 text-gray-800">
-          Your Favorite Recipes
+          შენი ფავორიტი რეცეპტები⭐
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

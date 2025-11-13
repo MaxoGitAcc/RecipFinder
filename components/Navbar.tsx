@@ -90,7 +90,7 @@ export default function Navbar() {
     return (
       <nav className="w-full bg-orange-500 py-4 px-8 flex items-center justify-between">
         <a href="/">
-          <h1 className="font-bold text-2xl">RecipeFinder</h1>
+          <h1 className="font-bold text-2xl">რეცეპტები მც</h1>
           </a>
       </nav>
     )
@@ -101,7 +101,7 @@ export default function Navbar() {
       <nav className="fixed top-0 left-0 z-50 w-full bg-orange-500/95 backdrop-blur-sm shadow-md
            py-4 px-8 flex items-center justify-between">
         <a href="/" className='text-white flex gap-2'>
-          <h1 className="font-bold text-2xl">RecipeFinder</h1>
+          <h1 className="font-bold text-2xl">რეცეპტები მც</h1>
           <span className="text-2xl">🍲</span>
         </a>
 
@@ -111,7 +111,7 @@ export default function Navbar() {
             <input
               ref={inputRef}
               type="text"
-              placeholder="Find a Recipe"
+              placeholder="მოძებნე რეცეპტი..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={onKeyDown}
@@ -170,7 +170,7 @@ export default function Navbar() {
             <input
               ref={inputRef}
               type="text"
-              placeholder="Find a Recipe"
+              placeholder="მოძებნე რეცეპტი..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               onKeyDown={onKeyDown}

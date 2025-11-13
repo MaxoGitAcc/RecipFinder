@@ -16,8 +16,8 @@ interface Dish {
 const Dishes = () => {
   const [dishes, setDishes] = useState<Dish[]>([])
   const [favorites, setFavorites] = useState<Dish[]>([])
-  const [filter, setFilter] = useState<string>('All')
-  const [visibleCount, setVisibleCount] = useState<number>(9) // number of dishes to show initially
+  const [filter, setFilter] = useState<string>('ყველა')
+  const [visibleCount, setVisibleCount] = useState<number>(9)
   const router = useRouter()
 
   // Load favorites from localStorage
@@ -51,8 +51,8 @@ const Dishes = () => {
     localStorage.setItem('favorites', JSON.stringify(updated))
   }
 
-  const filteredDishes = filter === 'All' ? dishes : dishes.filter(d => d.type === filter)
-  const types = ['All', ...Array.from(new Set(dishes.map(d => d.type)))]
+  const filteredDishes = filter === 'ყველა' ? dishes : dishes.filter(d => d.type === filter)
+  const types = ['ყველა', ...Array.from(new Set(dishes.map(d => d.type)))]
 
   const handleLoadMore = () => {
     setVisibleCount(prev => prev + 9) // load 9 more dishes
@@ -67,7 +67,7 @@ const Dishes = () => {
           {types.map((t) => (
             <button
               key={t}
-              onClick={() => { setFilter(t); setVisibleCount(9) }} // reset visible count on filter change
+              onClick={() => { setFilter(t); setVisibleCount(9) }}
               className={`flex-shrink-0 px-5 py-2 rounded-full font-semibold transition-all duration-200 ${
                 filter === t
                   ? 'bg-orange-500 text-white shadow-md scale-105'
@@ -121,7 +121,7 @@ const Dishes = () => {
           <div className="flex justify-center mt-6">
             <button onClick={handleLoadMore}
                className="px-6 py-2 bg-orange-500 text-white font-semibold rounded-full hover:bg-orange-600 transition cursor-pointer">
-              Load More
+              მეტი...
             </button>
           </div>
         )}

@@ -1,68 +1,68 @@
 [
   {
     "id": 9,
-    "title": "Margherita Pizza",
-    "subtitle": "Cheesy perfection in every bite",
+    "title": "პიცა მარგარიტა",
+    "subtitle": "ყველიანი სრულყოფილება ყოველ ლუკმაში",
     "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg",
     "time": "40 min",
     "rating": 4.9,
-    "type": "Dinner",
+    "type": "ვახშამი",
     "recipe": [
-      "Preheat oven to 250°C (480°F).",
-      "Roll out pizza dough.",
-      "Spread tomato sauce evenly.",
-      "Top with mozzarella and fresh basil.",
-      "Bake until crust is golden and cheese melts.",
-      "Slice and serve hot."
+      "გააცხელეთ ღუმელი 250°C (480°F).",
+      "გააბრტყელეთ პიცის ცომი",
+      "თანაბრად გაანაწილეთ ტომატის სოუსი.",
+      "ზემოდან მოაყარეთ მოცარელა და ახალი რეჰანი.",
+      "გამოაცხვეთ სანამ ქერქი ოქროსფერი არ გახდება და ყველი არ გადნება.",
+      "დაჭერით და მიირთვით ცხელი."
     ],
     "ingredients": [
-      "1 pizza dough (store‑bought or homemade)",
-      "½ cup tomato sauce",
-      "150 g fresh mozzarella (sliced)",
-      "Fresh basil leaves",
-      "1 tbsp olive oil",
-      "Salt to taste"
+      "1 პიცის ცომი (მაღაზიაში ნაყიდი ან ხელნაკეთი)",
+      "½ ჭიქა ტომატის სოუსი",
+      "150 გ ახალი მოცარელა (დაჭრილი)",
+      "ახალი რეჰანის ფოთლები",
+      "1 სუფრის კოვზი ზეითუნის ზეთი",
+      "მარილი გემოვნებით"
     ]
   },
   {
     "id": 11,
-    "title": "Chicken Teriyaki Stir Fry",
-    "subtitle": "Quick weeknight dinner",
+    "title": "ჩიკენ ტერიანკი სტირფრაი",
+    "subtitle": "სწრაფი ვახშამი შუა კვირისთვის",
     "image": "https://images.unsplash.com/photo-1636401870585-a8852371e84a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2940",
     "time": "25 min",
     "rating": 4.7,
-    "type": "Dinner",
+    "type": "ვახშამი",
     "recipe": [
-      "Sauté chicken pieces in oil.",
-      "Add vegetables and cook until tender.",
-      "Pour teriyaki sauce and stir.",
-      "Serve hot with rice or noodles."
+      "გაცხელეთ ზეთი და შეწვით ქათმის ნაჭრები.",
+      "დაამატეთ ბოსტნეული და მოშუშეთ რბილად.",
+      "ჩაასხით ტერიანკი სოუსი და მოურიეთ.",
+      "მიირთვით ცხელი ბრინჯთან ან მაკარონთან ერთად."
     ],
     "ingredients": [
-      "300 g chicken breast",
-      "1 cup broccoli florets",
-      "1 carrot (sliced)",
-      "2 tbsp teriyaki sauce",
-      "Cooked rice or noodles to serve"
+      "300 გ ქათმის მკერდის ფილე",
+      "1 ჭიქა ბროკოლის ყვავილები",
+      "1 სტაფილო (გახეხილი)",
+      "2 სუფრის კოვზი ტერიანკი სოუსი",
+      "მომზადებული ბრინჯი ან მაკარონი"
     ]
   },
   {
     "id": 12,
-    "title": "Strawberry Smoothie",
-    "subtitle": "Refreshing summer drink",
+    "title": "მარწყვის სმუზი",
+    "subtitle": "გასაგრილებელი საზაფხულო სასმელი",
     "image": "https://images.pexels.com/photos/775031/pexels-photo-775031.jpeg",
     "time": "5 min",
     "rating": 4.6,
-    "type": "Drink",
+    "type": "სასმელი",
     "recipe": [
-      "Blend strawberries, banana, and milk until smooth.",
-      "Pour into a glass and enjoy."
+      "დააბლენდერეთ მარწყვი, ბანანი და რძე თანაბრად.",
+      "დაასხით ჭიქაში და მიირთვით."
     ],
     "ingredients": [
-      "1 cup strawberries",
-      "1 banana",
-      "½ cup milk",
-      "Honey to taste (optional)"
+      "1 ჭიქა მარწყვი",
+      "1 ბანანი",
+      "½ ჭიქა რძე",
+      "თაფლი გემოვნებით (სურვილისამებრ)"
     ]
   }
 ]

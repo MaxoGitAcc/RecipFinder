@@ -19,7 +19,7 @@ const Trending = () => {
     <section className="my-8 pt-[5rem] flex flex-col items-center px-4 sm:px-6">
       <div className="w-full max-w-[1264px]">
         <h1 className="text-2xl font-bold mb-4 text-center sm:text-left">
-          Trending Now
+          პოპულარული კერძები🔥
         </h1>
 
         {/* Main image container */}
